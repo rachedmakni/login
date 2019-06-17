@@ -1,0 +1,69 @@
+.box{
+
+  display: block;
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(255,255,255,0.10); 
+  text-align: center;
+}
+input[type = "text"], input[type = "password"],select,input[type = "date"],input[type = "file"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.5s;
+}
+input[type = "text"]:focus, input[type = "password"]:focus,select:focus, input[type = "date"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+ input[type = "submit"],input[type = "reset"],input[type = "button"],button{
+  border:0;
+  background: none;
+  margin: 25px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+input[type = "submit"]:hover,input[type = "reset"]:hover,input[type = "button"]:hover,button:hover{
+  background: #2ecc71;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #191919;
+}
+option{
+  color: black;
+}
+h2{
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+h3{
+color: white;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;  }}
