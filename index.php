@@ -12,6 +12,7 @@
   <input type="text" name="login" placeholder="Login" required/>
   <input type="password" name="mdp" placeholder="Mote de passe" required/>
   <input type="submit" value="Login">
+  <input type="submit" value="sgin-in">
 </form>
 </div>
   </body>
