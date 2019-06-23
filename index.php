@@ -7,12 +7,12 @@
   </head>
   <body>
  <div class="box" >
-<form action="register.php" method="post">
+<form action="login.php" method="post">
   <h2>Login</h2>
   <input type="text" name="login" placeholder="Login" required/>
   <input type="password" name="mdp" placeholder="Mote de passe" required/>
   <input type="submit" value="Login">
-  <input type="submit" value="sgin-in">
+  <a href="sign_in.php"><input type="button" value="sgin-in"></a>
 </form>
 </div>
   </body>
